@@ -14,13 +14,10 @@ La primera versión (0.9.0) de Python fue lanzada en 1991, y la versión 1.0 en 
 
 El código Python es almacenado en archivos de texto con extensión ".py" (programa1.py ) , en donde cada línea del archivo es una sentencia Python, o parte de una sentencia.
 
-La única excepción son las líneas de comentarios, que comienzan con el caracter # (opcionalmente precedida por un número arbitrario de caracteres de espacio en blanco, es decir, tabs y espacios. Las líneas de comentarios son usualmente ignoradas por el intérprete Python.
+La única excepción son las líneas de comentarios, que comienzan con el caracter #. Las líneas de comentarios son usualmente ignoradas por el intérprete Python.
 
 Para ejecutar nuestro programa Python desde la línea de comando usamos:
-  $ python miprograma.py
-
-En sistemas UNIX es común definir la ruta al intérprete en la primera línea del programa (note que ésta es una línea de comentarios en lo que respecta al intérprete Python):
-  #!/usr/bin/env python
+  * $ python miprograma.py
 
 Si hacemos esto, y adicionalmente configuramos el archivo para que sea ejecutable, podemos correr el programa usando:
-  $ miprograma.py
+  * $ miprograma.py
